@@ -1,7 +1,6 @@
 import React from 'react';
+import UserAuthorizationForm from './UserAuthorization';
 
-import Header from './App-Header';
-
-const App = () => <Header />;
+const App = () => <UserAuthorizationForm />;
 
 export default App;
