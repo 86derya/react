@@ -1,8 +1,5 @@
 import React from 'react';
+import DishComment from './DishComment';
 
-import Menu from './Menu';
-import DishList from '../data/DishList.json';
-
-const App = () => <Menu dishList={DishList} />;
-
+const App = () => <DishComment id={1} />;
 export default App;
